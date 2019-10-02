@@ -18,6 +18,14 @@ package main
 // main has no access to other packages outside main unless imported
 import "fmt"
 
+// func declares func
+// () arguments
+// {} func body
 func main() {
 	fmt.Println("Hi there!")
 }
+
+// how is this organized
+// package declaration
+// import other packages
+// declare functions- tell go to do things
