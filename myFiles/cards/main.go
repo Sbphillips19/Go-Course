@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// assigns a variable to value card
 	// var creates a new variable
@@ -27,7 +29,8 @@ func main() {
 	// card- current card
 	// range cards- loop through cards
 	// for loops declared everytime that's why :=
-	cards.print()
+
+	fmt.Println(cards.toString())
 }
 
 // basic go types
