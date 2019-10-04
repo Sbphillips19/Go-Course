@@ -22,7 +22,15 @@ func main() {
 	// next time can do card = "Queen", etc no :
 
 	// creating a slice
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
+
+	// cards := newDeckFromFile("my_cards")
+	// cards.print()
+
 	cards := newDeck()
+	cards.shuffle()
+	cards.print()
 
 	// for index, card
 	// index of element in array
